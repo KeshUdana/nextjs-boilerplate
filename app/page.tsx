@@ -4,8 +4,9 @@ import Homepage from "./pages/homepage"
 export default function Home() {
   return (
     <>
-      <Homepage/>
-
+      <section id="homepage">
+        <Homepage/>
+      </section>
       
     </>
   );
