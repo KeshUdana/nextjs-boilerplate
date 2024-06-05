@@ -7,6 +7,9 @@ export default function Home() {
       <section id="homepage">
         <Homepage/>
       </section>
+      <section id="education">
+        <education/>
+      </section>
       
     </>
   );
