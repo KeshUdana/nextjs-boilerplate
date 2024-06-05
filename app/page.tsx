@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Homepage from "./pages/homepage"
-import education from "./pages/education"
+import Education from "./pages/education"
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <Homepage/>
       </section>
       <section id="education">
-        <education/>
+        <Education/>
       </section>
       
     </>
