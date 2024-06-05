@@ -2,7 +2,7 @@ import React from "react";
 import '../globals.css';
 import Image from 'next/image'
 
-function education(){
+function Education(){
     return(
         <>
             <section className="h-screen bg-gradient-to-r from-gray-900 via-gray-700 to-black">
@@ -36,4 +36,4 @@ function education(){
         </>
     ); 
 };
-export default education;
+export default Education;
