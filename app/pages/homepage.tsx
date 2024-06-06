@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function Homepage() {
     return (
-        <> <section className="bg-gradient-to-r from-gray-950 from-20% via-blue-700 via-50% to-zinc-900 to-90% h-screen ">
+        <> <section className="bg-gradient-to-r from-gray-950 from-30% via-blue-700 via-50% to-zinc-900 to-80% h-screen ">
             <ul className="flex-col  py-12 px-9">
                 <li className="font-Nunito text-9xl font-light text-white decoration-double px-50% py-10">HELLO.</li>
                 <li className="font-Roboto text-4xl font-normal text-lime-500 ">Keshawa Udana</li>
