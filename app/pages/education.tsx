@@ -24,8 +24,6 @@ function Education(){
                     </ul>
                 <ul>
                     <li className="text-2xl font-mono mt-8">Machine Learning & Data Mining</li>
-                    <Image className="flex items-center justify-center "src="/google-tensorflow-icon.svg" alt="tflow"width={50} height={100} ></Image>
-
                 </ul>
             </div>
             <div className="text-center">
