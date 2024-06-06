@@ -12,7 +12,7 @@ function ForgeLab() {
                     loop
                     className="absolute inset-0 object-cover w-full h-full"
                 >
-                    <source src="https://drive.google.com/file/d/1CApHQbFv_mKFO8YFhfzAm5pHjDiD0V2T/view?usp=sharing.mp4" type="video/mp4" />
+                    <source src="/mixkit-burning-lava-particles-leaping-through-the-air-4426-hd-ready.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="absolute inset-0 bg-black opacity-50"></div> {/* Overlay to darken the video */}
