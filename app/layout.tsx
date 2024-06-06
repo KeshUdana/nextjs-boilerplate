@@ -15,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></head>
       <body>
         <main>
           <nav className="fixed w-screen px-4 py-4 flex justify-between items-center bg-stone-950 text-white font-mono z-40">
@@ -23,7 +24,12 @@ export default function RootLayout({
               <li className=" hover:text-green-500"><Link href="#education">Education</Link></li>
               <li className=" hover:text-orange-500"><Link href="#forgelab">Forge Lab</Link></li>
               <li className=" hover:text-purple-500"><Link href="#modde">Modde</Link></li>
-            </ul>
+            
+              
+              <li className=" hover:text-purple-400"><i className='bx bxl-github bx-md'></i></li>
+              <li className=" hover:text-sky-400"><i className='bx bxl-linkedin bx-md' ></i></li>
+              <li className=" hover:text-red-400"><i className='bx bx-mail-send bx-md' ></i></li>
+              </ul>
           </nav>
         {children}</main></body>
     </html>
