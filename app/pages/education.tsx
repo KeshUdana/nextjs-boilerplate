@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Education(){
     return(
         <>
-            <section className="h-screen bg-gradient-to-r from-gray-900 via-gray-700 to-black">
+            <section className="h-screen bg-gradient-bg-gradient-to-r from-rose-950 from-20% via-indigo-800 via-30% to-fuchsia-600 to-90%">
             <div className="text-center  ">
                 <h1 className="text-4xl font-light text-center text-cyan-400 py-12 transform-double ">Academic Background</h1>
                 <p className="text-2xl text-zinc-400">Undergraduate Bsc.Computer Science University of Westminster</p>
