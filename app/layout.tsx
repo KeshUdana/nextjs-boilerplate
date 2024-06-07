@@ -29,7 +29,7 @@ export default function RootLayout({
               <li className=" hover:text-blue-500"><Link href="#homepage">Homepage</Link></li>
               <li className=" hover:text-green-500"><Link href="#education">Education</Link></li>
               <li className=" hover:text-orange-500"><Link href="#forgelab">Forge Lab</Link></li>
-              <li className=" hover:text-purple-500"><Link href="#modde">Modde</Link></li>
+              <li className=" hover:text-purple-500"><Link href="#modde">Projects</Link></li>
             
               
              
