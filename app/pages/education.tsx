@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Education(){
     return(
         <>
-            <section className="h-screen bg-gradient-to-t from-slate-900 via-cyan-900 to-cyan-400">
+            <section className="h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
             <div className="text-center  ">
                 <h1 className="text-4xl font-light text-center text-cyan-400 py-12 transform-double ">Academic Background</h1>
                 <p className="text-2xl text-zinc-400">Undergraduate Bsc.Computer Science University of Westminster</p>
@@ -14,6 +14,7 @@ function Education(){
                 <Image className="rounded mx-10"src="/IIT-Campus-Logo.jpg"alt="iit logo"width={150} height={300} ></Image>
                 </div>
                 <p className="font-mono text-xl text-fuchsia-700"> TECH STACKS</p>
+                
 
                 <ul className="flex justify-center w-full space-x-6 hover:">
                     <i className='bx bxl-python bx-lg text-lime-600 ' ></i>

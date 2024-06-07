@@ -4,6 +4,9 @@
 html{
   scroll-behavior:smooth;
 }
+.roboto{
+  font-family:var(--font-roboto);
+}
 
 
 @layer utilities {
