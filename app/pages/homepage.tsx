@@ -12,7 +12,7 @@ function Homepage() {
             </ul>
 
             <div>
-            <Image className="absolute top-1/3 left-1/2 w-96 h-96 rounded-2xl custom-transform border-9 border-sky-950 z-20"src="/mypic.jpeg" alt="MyPic" width={500} height={500} />
+            <Image className="absolute top-1/3 left-1/2 w-96 h-96 rounded-2xl custom-transform border-9 drop-shadow-xl z-20"src="/mypic.jpeg" alt="MyPic" width={500} height={500} />
             </div>
         </section>
         </>
