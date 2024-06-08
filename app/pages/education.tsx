@@ -30,7 +30,7 @@ function Education(){
     <Image src="/vite-svgrepo-com (1).svg" alt="vite" width={50} height={24}/>
     <Image src="/aws-svgrepo-com (1).svg" alt="" width={50} height={24}/>
 
-    <Image src="/vercel.svg" alt="" width={100} height={24}/>
+    <Image src="/vercel-svgrepo-com (1).svg" alt="" width={100} height={24}/>
     <Image src="/mongo-svgrepo-com.svg" alt="mongodb" width={60} height={24}/>
     <Image src="/tensorflow-svgrepo-com (1).svg" alt="tensoflow" width={50} height={24}/>
     <Image src="/numpy-svgrepo-com (1).svg" alt="numpy" width={50} height={24}/>
