@@ -8,7 +8,9 @@ function Homepage() {
             <ul className="flex-col  py-12 px-9">
                 <li className="font-Nunito text-9xl font-light text-white decoration-double px-50% py-10">HELLO.</li>
                 <li className="font-Roboto text-4xl font-normal text-lime-500 ">Keshawa Udana</li>
-                <li className="font-Nunito text-2xl font-extralight text-zinc-500">Software Developer|Entrepreneur</li>
+                <li className="font-Nunito text-2xl font-extralight text-zinc-300">Software Developer|Entrepreneur</li>
+                <li className="font-Nunito text-xs font-light text-zinc-500">UG.University of Westminster</li>
+
             </ul>
 
             <div>

@@ -24,12 +24,13 @@ export default function RootLayout({
       
       <body className={robot_init.variable}>
         <main>
-          <nav className="fixed w-screen px-4 py-4 flex justify-between items-center bg-stone-950 text-white font-mono z-40">
+          <nav className="fixed w-screen left-0 px-4 py-4 flex justify-between items-center bg-white/0 shadow-lg backdrop-blur-xl text-white text-lg z-40">
             <ul className="flex justify-between w-full px-3 text-white">
-              <li className=" hover:text-blue-500"><Link href="#homepage">Homepage</Link></li>
-              <li className=" hover:text-green-500"><Link href="#education">Education</Link></li>
-              <li className=" hover:text-orange-500"><Link href="#forgelab">Forge Lab</Link></li>
-              <li className=" hover:text-purple-500"><Link href="#modde">Projects</Link></li>
+              <li className=" hover:text-cyan-400"><Link href="#homepage">Homepage</Link></li>
+              <li className=" hover:text-green-400"><Link href="#education">Academic</Link></li>
+              <li className=" hover:text-orange-400"><Link href="#forgelab">Forge Lab</Link></li>
+              <li className=" hover:text-rose-400"><Link href="#modde">Modde</Link></li>
+              <li className=" hover:text-yellow-400"><Link href="#projects">Projects</Link></li>
             
               
              

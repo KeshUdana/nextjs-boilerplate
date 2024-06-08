@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Homepage from "./pages/homepage"
 import Education from "./pages/education"
 import ForgeLab from "./pages/forgelab"
+import Modde from "./pages/modde"
 import Projects from "./pages/projects"
 
 
@@ -18,6 +18,9 @@ export default function Home() {
         <ForgeLab/>
       </section>
       <section id="modde">
+        <Modde/>
+      </section>
+      <section id="projects">
         <Projects/>
       </section>
     </>
