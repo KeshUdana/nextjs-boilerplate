@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
       <body className={robot_init.variable}>
         <main>
           <nav className="fixed w-screen left-0 px-4 py-4 flex justify-between items-center bg-white/0 shadow-lg backdrop-blur-xl z-40">
