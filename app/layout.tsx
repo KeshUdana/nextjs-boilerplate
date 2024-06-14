@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"></meta></Head>
+      <Head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"></meta></Head>
 
       <body className={robot_init.variable}>
         <main>
