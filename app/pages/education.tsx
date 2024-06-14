@@ -13,9 +13,9 @@ function Education(){
                 <Image src="/Westminster University-01 (1).svg" alt="uni logo"width={200} height={100} ></Image>
                 <Image src="/iitlogo.svg"alt="iit logo"width={100} height={300} ></Image>
                 </div>
-                <p className="font-mono text-xl text-fuchsia-700"> TECH STACKS</p>
+                <p className="font-mono text-xl text-fuchsia-700"> TECH STACK</p>
                 <div className="flex flex-col items-center container mx-auto px-10 py-4">
-  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2">
+  <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-8 gap-2">
     <Image src="/python-svgrepo-com (1).svg" alt="python" width={50} height={24}/>
     <Image src="/java-4-logo-svgrepo-com (1).svg" alt="java" width={50} height={24}/>
     <Image src="/javascript-svgrepo-com (1).svg" alt="javascript" width={50} height={24}/>
