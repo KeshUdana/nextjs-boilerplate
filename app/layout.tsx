@@ -41,9 +41,9 @@ export default function RootLayout({
               <li className=" hover:text-rose-400 hidden sm:block"><Link href="#modde">Modde</Link></li>
               <li className=" hover:text-rose-400 md:hidden"><Link href="#modde">M</Link></li>
 
-              <li className=" hover:text-yellow-400 hidden sm:block"><Link href="#projects">Projects</Link>
+              <li className=" hover:text-yellow-400 hidden sm:block"><Link href="#projects">Projects</Link></li>
               <li className=" hover:text-yellow-400 md:hidden"><Link href="#projects">P</Link></li>
-              </li>
+              
            </ul>
           </nav>
         {children}</main></body>
