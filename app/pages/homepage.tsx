@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Homepage() {
     return (
         <> 
-        <section className="h-screen w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
+        <section className="h-screen w-screen items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
             <ul className="flex-col  py-12 px-9">
                 <li className="font-Nunito text-8xl font-light text-white decoration-double px-50% py-10">HELLO.</li>
                 <li className="font-Roboto text-4xl font-normal text-lime-500 ">Keshawa Udana</li>
