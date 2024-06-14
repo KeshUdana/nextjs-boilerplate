@@ -5,7 +5,7 @@ import Image from 'next/image';
 function ForgeLab() {
     return (
         <>
-          <section className="relative h-screen">
+          <section className="relative h-screen w-screen">
                 <video
                     autoPlay
                     muted
