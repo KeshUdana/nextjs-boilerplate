@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Education(){
     return(
-        <>
+        <>  
             <section className="h-screen w-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
             <div className="text-center  ">
                 <h1 className="text-4xl font-light text-center text-cyan-400 py-14 transform-double ">Academic Background</h1>
