@@ -1,19 +1,9 @@
 import Link from "next/link"
 import React from "react"
-import {Roboto} from "next/font/google"
+
 import Head from 'next/head'
 import './globals.css';
 
-const robot_init=Roboto({
-  subsets:['latin'],
-  weight:['100','300','500'],
-  variable:'--font-roboto',
-});
-
-export const metadata = {
-  title: 'Keshawa Udana',
-  description: 'My Portfolio',
-}
 
 export default function RootLayout({
   children,
@@ -24,10 +14,10 @@ export default function RootLayout({
     <html lang="en">
       <Head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"></meta></Head>
 
-      <body className={robot_init.variable}>
+      <body >
         <main>
-          <nav className="fixed w-screen left-0 px-4 py-4 flex justify-between items-center bg-white/0 shadow-lg backdrop-blur-xl z-40">
-            <ul className="flex justify-between w-full px-3 text-base text-lime-400">
+          <nav className="fixed w-screen left-0 px-4 py-4 flex justify-between items-center bg-white/0 shadow-lg backdrop-blur-xl z-40 ">
+            <ul className="flex justify-between w-full px-3 text-base text-lime-400 ">
 
               <li className=" hover:text-cyan-400 hidden sm:block"><Link href="#homepage">Homepage</Link></li>
               <li className=" hover:text-cyan-400 md:hidden"><Link href="#homepage">H</Link></li>

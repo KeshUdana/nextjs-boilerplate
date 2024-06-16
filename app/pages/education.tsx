@@ -6,8 +6,8 @@ function Education(){
     return(
         <>  
             <section className="h-screen w-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-            <div className="text-center  ">
-                <h1 className="text-4xl font-light text-center text-cyan-400 py-14 transform-double ">Academic Background</h1>
+            <div className="text-center font-mono  ">
+                <h1 className="text-4xl  text-center text-cyan-400 py-14 transform-double ">Academic Background</h1>
                 <p className="text-2xl text-zinc-400">Undergraduate Bsc.Computer Science University of Westminster</p>
                 <div className="flex items-center justify-center">
                 <Image src="/Westminster University-01 (1).svg" alt="uni logo"width={200} height={100} ></Image>
